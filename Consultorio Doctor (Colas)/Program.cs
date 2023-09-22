@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Consultorio_Doctor__Colas_
 {
@@ -12,9 +9,9 @@ namespace Consultorio_Doctor__Colas_
         {
             int espera = 1;
             Queue<string> Espera_pacientes = new Queue<string>();
-            Espera_pacientes.Enqueue("Paciente");
-            Espera_pacientes.Enqueue("Paciente");
-            Espera_pacientes.Enqueue("Paciente");
+            Espera_pacientes.Enqueue("Paciente 1");
+            Espera_pacientes.Enqueue("Paciente 2");
+            Espera_pacientes.Enqueue("Paciente 3");
             Espera_pacientes.Enqueue("Paciente");
             Espera_pacientes.Enqueue("Paciente");
             Console.WriteLine("== Turnos disponibles ==");
